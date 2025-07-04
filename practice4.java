@@ -1,5 +1,5 @@
 //DAY BEFORE N DAYS
-public class practice4 {
+public class practice4{
     public static void main(String [] args){
         int d = 2;
         int n = 19;
