@@ -1,4 +1,4 @@
-class Check {
+class Checka {
     public static boolean prime(int n) {
         // Write your code here
         if(n == 1)
