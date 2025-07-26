@@ -1,54 +1,72 @@
-# 📚 Data Structures in Depth
+# 📚 Data Structures in Depth (Java + Concepts)
 
-Welcome to the **Data Structures** repository! This repository contains code implementations, explanations, and practice problems of commonly used data structures in computer science using **C++** / **Java** / **Python** (Choose your preferred language).
+Welcome to the **Data Structures** repository! This repository contains Java implementations of core data structures, their operations, and related problem-solving practice. It also includes a quick guide to **Java Basics** for beginners.
 
-> 🚀 Ideal for students, interview prep, and coding practice.
+> 🚀 Perfect for students, interview prep, and competitive programming.
 
 ---
 
 ## 📌 Contents
 
-### Linear Data Structures
-- [x] Array
-- [x] Linked List (Singly, Doubly, Circular)
-- [x] Stack (Using Array & Linked List)
-- [x] Queue (Normal, Circular, Deque, Priority Queue)
+### 📘 Java Basics
+- [x] Data Types & Variables
+- [x] Control Flow (if, switch, loops)
+- [x] Functions & Method Overloading
+- [x] Object-Oriented Programming (OOP)
+- [x] Arrays & Strings
+- [x] Exception Handling
+- [x] Packages & Access Modifiers
+- [x] Collections Framework
 
-### Non-Linear Data Structures
-- [x] Tree (Binary Tree, BST, AVL, Segment Tree)
-- [x] Heap (Min Heap, Max Heap)
-- [x] Graph (BFS, DFS, Dijkstra, Topological Sort)
+### 📦 Core Data Structures in Java
 
-### Hashing
-- [x] Hash Tables
-- [x] Collision Resolution Techniques (Chaining, Open Addressing)
+#### 1️⃣ Linear Data Structures
+- Arrays
+- Linked Lists (Singly, Doubly, Circular)
+- Stack (Array & LinkedList-based)
+- Queue (Normal, Circular, PriorityQueue, Deque)
 
-### Advanced
-- [x] Tries
-- [x] Disjoint Set (Union-Find)
-- [x] Bit Manipulation Techniques
+#### 2️⃣ Non-Linear Data Structures
+- Trees (Binary Tree, BST, AVL, Segment Tree)
+- Graphs (BFS, DFS, Dijkstra, Topological Sort)
+- Heaps (MinHeap, MaxHeap)
+
+#### 3️⃣ Hashing & Advanced
+- HashMap, HashSet
+- Hash Tables
+- Tries
+- Disjoint Set (Union-Find)
+- Bit Manipulation Techniques
 
 ---
 
-## 📂 Folder Structure
+## 🧱 Folder Structure
 
 ```bash
-Data-Structures/
+Data-Structures-Java/
+│
+├── Java-Basics/
+│   ├── DataTypes.java
+│   ├── Loops.java
+│   ├── OOP_Concepts.java
+│   └── ExceptionHandling.java
 │
 ├── Arrays/
-│   └── array_operations.py
+│   └── ArrayOperations.java
 ├── LinkedList/
-│   └── singly_linked_list.cpp
+│   └── SinglyLinkedList.java
 ├── Stack/
-│   └── stack_using_array.java
+│   └── StackUsingArray.java
 ├── Queue/
-│   └── circular_queue.cpp
+│   └── CircularQueue.java
 ├── Trees/
-│   └── binary_search_tree.py
+│   └── BinarySearchTree.java
 ├── Graphs/
-│   └── bfs_dfs.cpp
+│   └── BFS_DFS.java
 ├── Hashing/
-│   └── hash_table.java
+│   └── HashMapExamples.java
 ├── Tries/
-│   └── trie_operations.py
+│   └── TrieImplementation.java
+├── Heap/
+│   └── MaxHeap.java
 └── README.md
