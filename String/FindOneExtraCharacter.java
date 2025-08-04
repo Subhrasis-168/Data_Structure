@@ -1,4 +1,5 @@
 package String;
+class FindOneExtraCharacter {
     public static char extraChar(String s1, String s2) {
 
         // write your code here
@@ -13,4 +14,5 @@ package String;
         }
         return (char) result;
     }
+}
 
