@@ -1,4 +1,4 @@
-package ArrayList;
+package ArrayListProgram;
 
 // User function Template for Java
 class AverageInArrayList {
